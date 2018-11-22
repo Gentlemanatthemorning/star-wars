@@ -1,0 +1,17 @@
+@import "./base/variables";
+@import "./base/normalize";
+// @import "./base/grid";
+
+@import "./components/header";
+
+@import "./partials/logo";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "KoHo", sans-serif;
+  background: #fdfaf7;
+}
