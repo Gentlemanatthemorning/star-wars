@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css?family=Allerta+Stencil|Electrolize");
+
+.wrapper {
+  background: #003264;
+  height: 700px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: contain;
+}
+
+.title-container {
+  height: 700px;
+  width: 50%;
+  background: url("../images/bg.jpg") center center no-repeat;
+  background-size: contain;
+  background-color: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #000;
+}
+
+.title-container__title {
+  font-size: 50px;
+  letter-spacing: 2px;
+  line-height: 1.3;
+  font-family: "Allerta Stencil", sans-serif;
+  color: red;
+}
+
+.title-container__subtitle {
+  font-style: italic;
+  font-weight: 100;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  font-family: "Electrolize", sans-serif;
+  color: red;
+  text-align: center;
+}
+
+.form-container {
+  background-color: none;
+  height: 700px;
+  padding-top: 50px;
+  padding-left: 50px;
+  width: 50%;
+}
+
+input[type="text"] {
+  background-color: transparent;
+  border: 0;
+  border-bottom: solid 1px red;
+  width: 30%;
+  padding-bottom: 4px;
+  color: #0095ff !important;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+input[type="text"] {
+  outline: none;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px #2c3e50 inset;
+  -webkit-text-fill-color: #fff !important;
+}
+
+button {
+  border: 0;
+  padding: 8px 20px;
+  margin: 0 2px;
+  border-radius: 2px;
+  cursor: pointer;
+  background: url("../images/button.jpg");
+  height: 70px;
+  width: 70px;
+  outline: 0;
+}
+
+button:active {
+  outline: none;
+}
+
+button:hover {
+  transform: rotate(360deg);
+  transition: 1.5s;
+}
+
+.weather__info {
+  width: 60%;
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+
+.weather__key {
+  color: red;
+  border-bottom: solid 2px rgba(255, 255, 255, 0.06);
+  padding: 20px 0 20px 0;
+  font-weight: 400;
+}
+
+.weather__key:last-child {
+  border: 0;
+}
+
+.weather__value {
+  color: #fff;
+  font-weight: 200;
+}
+
+.weather__error {
+  color: #f16051;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: 200;
+}

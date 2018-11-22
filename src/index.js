@@ -1,13 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { HashRouter, Route, Link, Switch } from "react-router-dom";
-require("../scss/style.scss");
+import Logo from "./App.js";
+import Movies from "./movies.js";
+import Books from "./books.js";
+import Jedi from "./jedi.js";
+import Sith from "./sith.js";
 
-import Logo from "./main.jsx";
-import Movies from "./movies.jsx";
-import Books from "./books.jsx";
-import Jedi from "./jedi.jsx";
-import Sith from "./sith.jsx";
+require("./scss/style.scss");
 
 class Header extends React.Component {
   render() {
@@ -64,6 +64,6 @@ document.addEventListener("DOMContentLoaded", function() {
         </Switch>
       </div>
     </HashRouter>,
-    document.getElementById("app")
+    document.getElementById("root")
   );
 });

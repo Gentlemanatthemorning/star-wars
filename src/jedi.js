@@ -1,5 +1,4 @@
 import React from "react";
-require("../scss/style.scss");
 
 class Jedi extends React.Component {
   render() {

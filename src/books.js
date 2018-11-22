@@ -1,13 +1,12 @@
 import React from "react";
-require("../scss/style.scss");
 
-class Sith extends React.Component {
+class Books extends React.Component {
   render() {
     return (
       <section>
         <div className="main__logo">
           <div className="container">
-            <h1 className="main__logo__title">#READ MORE ABOUT SITH</h1>
+            <h1 className="main__logo__title">#READ MORE ABOUT BOOKS</h1>
           </div>
         </div>
       </section>
@@ -15,4 +14,4 @@ class Sith extends React.Component {
   }
 }
 
-export default Sith;
+export default Books;
