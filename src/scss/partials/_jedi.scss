@@ -1,0 +1,28 @@
+.parallax3 {
+  background: url("../images/bg-jedi.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 750px;
+  width: 100%;
+}
+.main__logo {
+  position: relative;
+  display: flex;
+
+  &__title2 {
+    color: $c4;
+    margin-top: 0;
+    background: none;
+    font-size: 150px;
+    padding: 20px;
+    cursor: default;
+    margin-bottom: 0;
+    display: flex;
+    padding-top: 22%;
+  }
+
+  &__text {
+    margin: 20px 30px;
+    font-size: 25px;
+  }
+}

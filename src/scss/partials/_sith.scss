@@ -1,0 +1,28 @@
+.parallax4 {
+  background: url("../images/bg-sith.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 750px;
+  width: 100%;
+}
+.main__logo {
+  position: relative;
+  display: flex;
+
+  &__title3 {
+    color: $c3;
+    margin-top: 0;
+    background: none;
+    font-size: 150px;
+    padding: 20px;
+    cursor: default;
+    margin-bottom: 0;
+    display: flex;
+    padding-top: 22%;
+  }
+
+  &__text {
+    margin: 20px 30px;
+    font-size: 25px;
+  }
+}

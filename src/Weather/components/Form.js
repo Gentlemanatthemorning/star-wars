@@ -7,7 +7,7 @@ const Form = props => (
     </h1>
     <input type="text" name="city" placeholder="City..." />
     <input type="text" name="country" placeholder="Country..." />
-    <button>
+    <button className="form-button">
       <img src="../img/button.jpg" alt="" />
     </button>
   </form>

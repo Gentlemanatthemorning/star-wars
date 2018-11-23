@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css?family=Allerta+Stencil|Electrolize");
+
+.first__label,
+.second__label {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+// .second__label {
+//   margin-left: 100px;
+//   margin-right: 100px;
+// }
+
+.label__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: radial-gradient(#313750, #1b213b, $c2);
+}
+.label__box__1,
+.label__box__2 {
+  & h3 {
+    margin-top: 5px;
+    font-size: 40px;
+  }
+}
+
+.label__box {
+  &__1 {
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    width: 320px;
+    height: 500px;
+    background-color: #2485a070;
+    border: 1px solid $c4;
+    vertical-align: top;
+    text-align: center;
+    cursor: default;
+  }
+
+  &__2 {
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    width: 320px;
+    height: 500px;
+    background-color: #2485a070;
+    border: 1px solid $c3;
+    vertical-align: top;
+    text-align: center;
+    cursor: default;
+  }
+
+  &__option1 {
+    color: $c4;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    font-family: "Electrolize", sans-serif;
+  }
+
+  &__option2 {
+    color: $c3;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    font-family: "Allerta Stencil", sans-serif;
+  }
+
+  &__price {
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-sizing: border-box;
+    width: 130px;
+    height: 130px;
+    border-radius: 30%;
+    background-color: $c2;
+
+    &__text1 {
+      background: url("../images/jedi.jpg");
+      display: inline-block;
+      font-size: 40px;
+      width: 130px;
+      height: 130px;
+      border-radius: 30%;
+
+      & span {
+        font-size: 16px;
+        vertical-align: top;
+      }
+    }
+
+    &__text2 {
+      background: url("../images/sith.jpg");
+      display: inline-block;
+      font-size: 40px;
+      width: 130px;
+      height: 130px;
+      border-radius: 30%;
+
+      & span {
+        font-size: 16px;
+        vertical-align: top;
+      }
+    }
+
+    &__plan {
+      display: inline-block;
+      font-size: 15px;
+      margin-top: 5px;
+      color: $c4;
+    }
+  }
+
+  &__service__1 {
+    margin-top: 60%;
+    padding-left: 0;
+    font-size: 24px;
+    color: $c4;
+    list-style: none;
+
+    & li {
+      padding: 7px 0;
+      border-top: 1px solid $c4;
+      border-bottom: 1px solid $c4;
+      text-transform: uppercase;
+      font-family: "Electrolize", sans-serif;
+    }
+  }
+
+  &__service__2 {
+    margin-top: 60%;
+    padding-left: 0;
+    font-size: 24px;
+    color: $c3;
+    list-style: none;
+    font-family: "Allerta Stencil", sans-serif;
+
+    & li {
+      padding: 7px 0;
+      border-top: 1px solid $c3;
+      border-bottom: 1px solid $c3;
+      text-transform: uppercase;
+    }
+  }
+
+  &__button2 {
+    display: flex;
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: $c2;
+    border-radius: 10px;
+    border: 1px solid $c3;
+    cursor: pointer;
+    color: $c3;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: "Allerta Stencil", sans-serif;
+    text-transform: uppercase;
+
+    & a {
+      text-decoration: none;
+      color: $c3;
+      font-size: 25px;
+      font-family: "Allerta Stencil", sans-serif;
+    }
+  }
+
+  &__button1 {
+    display: flex;
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: $c2;
+    border-radius: 10px;
+    border: 1px solid $c4;
+    cursor: pointer;
+    color: $c4;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: "Electrolize", sans-serif;
+    text-transform: uppercase;
+
+    & a {
+      text-decoration: none;
+      color: $c4;
+      font-size: 25px;
+      font-family: "Electrolize", sans-serif;
+    }
+  }
+
+  &__button1:focus,
+  &__button2:focus {
+    outline: 0;
+  }
+
+  &__button1:hover {
+    border: 2px solid $c4;
+    transform: scale(1.2);
+    transition: 0.3s;
+    left: 17%;
+    text-transform: uppercase;
+    font-family: "Electrolize", sans-serif;
+    font-weight: bold;
+  }
+  &__button2:hover {
+    border: 2px solid $c3;
+    transform: scale(1.2);
+    transition: 0.3s;
+    left: 17%;
+    text-transform: uppercase;
+    font-family: "Allerta Stencil", sans-serif;
+    font-weight: bold;
+  }
+}

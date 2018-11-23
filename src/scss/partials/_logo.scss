@@ -20,17 +20,21 @@
   }
 }
 
+.container {
+  width: 100%;
+}
+
 .parallax {
   background: url("../images/bg.jpg") no-repeat center;
   background-size: cover;
   background-attachment: fixed;
-  height: 700px;
+  height: 750px;
   width: 100%;
 }
 
 .big__circle {
   position: absolute;
-  top: 59%;
+  top: 57%;
   left: 60%;
   box-sizing: border-box;
   width: 35rem;

@@ -6,7 +6,9 @@ class Books extends React.Component {
       <section>
         <div className="main__logo">
           <div className="container">
-            <h1 className="main__logo__title">#READ MORE ABOUT BOOKS</h1>
+            <div className="parallax5">
+              <h1 className="main__logo__title4">#READ MORE ABOUT BOOKS</h1>
+            </div>
           </div>
         </div>
       </section>

@@ -73,7 +73,7 @@ input:-webkit-autofill {
   -webkit-text-fill-color: #fff !important;
 }
 
-button {
+.form-button {
   border: 0;
   padding: 8px 20px;
   margin: 0 2px;
@@ -85,11 +85,11 @@ button {
   outline: 0;
 }
 
-button:active {
+.form-button:active {
   outline: none;
 }
 
-button:hover {
+.form-button:hover {
   transform: rotate(360deg);
   transition: 1.5s;
 }

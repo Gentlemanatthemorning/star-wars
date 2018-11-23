@@ -6,7 +6,9 @@ class Sith extends React.Component {
       <section>
         <div className="main__logo">
           <div className="container">
-            <h1 className="main__logo__title">#READ MORE ABOUT SITH</h1>
+            <div className="parallax4">
+              <h1 className="main__logo__title3">#READ MORE ABOUT SITH</h1>
+            </div>
           </div>
         </div>
       </section>
