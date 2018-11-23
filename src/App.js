@@ -8,9 +8,7 @@ class Logo extends React.Component {
       <section>
         <div className="main__logo">
           <div className="container">
-            <div className="parallax">
-              <h1 className="main__logo__title">Star Wars</h1>
-            </div>
+            <div className="parallax" />
             <App />
             <div className="parallax1">
               <div className="big__circle">
